@@ -24,7 +24,7 @@ class Matakuliah extends CI_Controller
             'nama' => $this->input->post('nama'),
             'sks'  => $this->input->post('sks')
         ];
-        $this->load->library('form_validation');
+        
         $this->load->view('view-data-matakuliah', $data);
         }
     }
